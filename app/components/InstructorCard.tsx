@@ -36,7 +36,7 @@ export default function InstructorCard({
         className="w-30 h-30 object-cover rounded-tl-xl rounded-bl-xl bg-[#8B3A80] bg-opacity-20"
       />
       {/* Info */}
-      <div className="flex flex-col gap-y-2">
+      <div className="flex flex-col -gap-y-4">
         <h3 className="font-bold text-xl">{name}</h3>
         <p className="text-md font-semibold text-[#8B3A80]">{title}</p>
         <div className="flex items-center gap-x-1">{stars}</div>
