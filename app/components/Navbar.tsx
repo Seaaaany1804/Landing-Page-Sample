@@ -43,7 +43,7 @@ export default function Navbar() {
             <input
               type="text"
               placeholder="Search..."
-              className="w-full pl-12 pr-4 py-3 border text-black text-sm border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#8B3A80]"
+              className="w-full pl-12 pr-20 py-3 border text-black text-sm border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#8B3A80]"
             />
           </div>
         </div>
