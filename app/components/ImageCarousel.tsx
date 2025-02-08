@@ -19,7 +19,7 @@ export default function ImageCarousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-[60vh] mt-24 flex flex-col items-center justify-center overflow-hidden">
+    <div className="relative w-full h-[60vh]  flex flex-col items-center justify-center overflow-hidden">
       {/* Carousel Image */}
       <img
         src={images[currentIndex]}
